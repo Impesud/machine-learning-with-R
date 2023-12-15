@@ -45,6 +45,7 @@ print(df)
 # Export to CSV
 write.csv(df, "here_put_your_path_and_name_of_your_new_CSV_file", row.names=FALSE)
 
+#Graph of the required data
 ggplot(df, aes(date, activeUsers)) + geom_line() + 
   xlab("") + ylab("Active Users") + theme_bw() + 
   scale_y_continuous(labels = label_number(accuracy = 1)) +
