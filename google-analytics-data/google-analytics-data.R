@@ -22,7 +22,7 @@ ga_auth(email = "here_put_your_service_account_email",
 metrics_list = ga_meta(version = "data")
 
 # Set up GA property ID
-property_id = 304285810
+property_id = "your_property_ID"
 
 # Test API is working
 basic <- ga_data(
